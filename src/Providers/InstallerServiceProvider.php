@@ -22,7 +22,7 @@ class InstallerServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__."./../Routes/web.php");
+
     }
 
     /**
@@ -33,6 +33,21 @@ class InstallerServiceProvider extends ServiceProvider
 
     public function register()
     {
+        $this->publishFiles();
+        $this->loadRoutesFrom(__DIR__."./../Routes/web.php");
+        $this->loadViewsFrom(__DIR__.'./../Views', 'kubpro');
+    }
+
+
+    private function publishFiles()
+    {
+        $this->publishes([
+            __DIR__ . '/../Publish/Config/installer.php' => base_path('config/installer.php'),
+        ], 'installer');
+
+        $this->publishes([
+            __DIR__.'/../Publish/Assets' => public_path('installer'),
+        ], 'installer');
 
     }
 
