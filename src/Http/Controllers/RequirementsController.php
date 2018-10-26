@@ -49,8 +49,8 @@ class RequirementsController extends Controller
      *
      * @return \Illuminate\View\View
      */
-    public function succsess(){
-        return view('kubpro::succsess');
+    public function sucsess(){
+        return view('kubpro::sucsess');
     }
 
 

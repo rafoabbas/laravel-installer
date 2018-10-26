@@ -73,7 +73,7 @@
                     @endforeach
                     @if ( ! isset($requirements['errors']) && $phpSupportInfo['supported'] )
                         <ul class="list-inline pull-right">
-                            <li><a href="" type="button" class="btn btn-primary next-step">Continue</a></li>
+                            <li><a href="{{route('Kubpro::permissions')}}" type="button" class="btn btn-primary next-step">Continue</a></li>
                         </ul>
                     @endif
 
