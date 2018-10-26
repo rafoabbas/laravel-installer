@@ -9,6 +9,18 @@
     "require-dev": {
         "phpunit/phpunit": "^7.0"
     },
+    "autoload": {
+        "psr-4": {
+            "Kubpro\\Installer\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kubpro\\Installer\\Providers\\InstallerServiceProvider"
+            ]
+        }
+    },
     "license": "MIT",
     "authors": [
         {
