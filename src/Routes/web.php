@@ -1,12 +1,17 @@
 <?php
 
+
+
 $namespace = 'Kubpro\Installer\Http\Controllers';
 
 Route::group([
     'namespace' => $namespace,
-    'prefix' => 'installer',
+    'prefix' => 'install',
+    
 ],function (){
 
-    Route::get('/','DemoController@index');
+    Route::get('/','RequirementsController@requirements');
+
+
 
 });
