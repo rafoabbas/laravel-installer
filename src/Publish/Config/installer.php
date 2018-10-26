@@ -27,4 +27,6 @@ return [
         'bootstrap/cache/'       => '775'
     ],
 
+    'installedAction' => '',
+
 ];

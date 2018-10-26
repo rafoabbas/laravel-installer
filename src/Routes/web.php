@@ -4,11 +4,12 @@
 
 $namespace = 'Kubpro\Installer\Http\Controllers';
 
+
 Route::group([
     'namespace' => $namespace,
     'prefix' => 'install',
-    'as' => 'Kubpro::'
-
+    'as' => 'Kubpro::',
+    'middleware' => 'install'
 ],function (){
 
     Route::get('/', [

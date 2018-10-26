@@ -11,6 +11,8 @@ namespace Kubpro\Installer\Providers;
 
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Routing\Router;
+use Kubpro\Installer\Http\Middleware\InstallCheckMiddleware;
 
 class InstallerServiceProvider extends ServiceProvider
 {
@@ -20,9 +22,9 @@ class InstallerServiceProvider extends ServiceProvider
      * @return void
      */
 
-    public function boot()
+    public function boot(Router $router)
     {
-
+        $router->middlewareGroup('install',[InstallCheckMiddleware::class]);
     }
 
     /**
