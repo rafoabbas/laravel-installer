@@ -36,7 +36,7 @@ Uses package auto discovery feature, no need to edit the `config/app.php` file.
 	];
 ```
 
-3. Publish the  config file,  and assets files 
+3. Publish the  config file, language file,  and assets files 
 
 ```bash
     php artisan vendor:publish
