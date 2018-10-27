@@ -9,7 +9,7 @@
 1. From your projects root folder in terminal run:
 
 ```bash
-    composer require rachidlaasri/laravel-installer
+    composer require kubpro/installer
 ```
 
 2. Register the package
