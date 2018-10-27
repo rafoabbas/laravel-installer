@@ -22,9 +22,9 @@
                 </li>
                 <li role="presentation" class="disabled">
                     <a href="#step3"  role="tab" title="Step 3">
-                            <span class="round-tab">
-                                <i class="glyphicon glyphicon-wrench"></i>
-                            </span>
+                        <span class="round-tab">
+                            <i class="glyphicon glyphicon-wrench"></i>
+                        </span>
                     </a>
                 </li>
 
