@@ -7,8 +7,6 @@
 
 
 
-=======
-
 ## Requirements
 
 * [Laravel 5.4, 5.5, or 5.5+](https://laravel.com/docs/installation)
