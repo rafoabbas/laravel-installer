@@ -56,7 +56,7 @@
                     </ul>
                     @if ( ! isset($permissions['errors']))
                         <ul class="list-inline pull-right">
-                            <li><a href="{{route('Kubpro::env')}}" type="button" class="btn btn-primary next-step">Continue</a></li>
+                            <li><a href="{{route('Kubpro::env')}}" type="button" class="btn btn-primary next-step">{{__('installer.continue')}}</a></li>
                         </ul>
                     @endif
 

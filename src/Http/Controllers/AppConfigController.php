@@ -14,7 +14,6 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Kubpro\Installer\Http\Helpers\AppConfigChanger;
 use Kubpro\Installer\Http\Helpers\DatabaseChecker;
-use Kubpro\Installer\Http\Helpers\InstalledFileManager;
 
 class AppConfigController extends Controller
 {
@@ -28,10 +27,10 @@ class AppConfigController extends Controller
     /**
      * @param EnvChanger $changer
      */
-    public function __construct(AppConfigChanger $changer, DatabaseChecker $connection, InstalledFileManager $file){
+    public function __construct(AppConfigChanger $changer, DatabaseChecker $connection){
         $this->envchanger = $changer;
         $this->database = $connection;
-        $this->fileinstall = $file;
+
     }
 
 
@@ -99,7 +98,7 @@ class AppConfigController extends Controller
 
             if ($database['connection']){
                 $this->database->kubmigrate();
-                $this->fileinstall->create();
+
                 return redirect(route('Kubpro::sucsess'));
 
             }else{

@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="UTF-8">
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Laravel') }} </title>
     <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
-
     <link rel="stylesheet" href="{{asset('installer/css/style.css')}}">
-
 
 </head>
 

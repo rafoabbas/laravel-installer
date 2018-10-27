@@ -12,6 +12,7 @@ namespace Kubpro\Installer\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Kubpro\Installer\Http\Helpers\RequirementsChecker;
+use Kubpro\Installer\Http\Helpers\InstalledFileManager;
 
 class RequirementsController extends Controller
 {
@@ -20,12 +21,14 @@ class RequirementsController extends Controller
      * @var RequirementsChecker
      */
     protected $requirements;
+    protected $fileinstall;
     /**
      * @param RequirementsChecker $checker
      */
-    public function __construct(RequirementsChecker $checker)
+    public function __construct(RequirementsChecker $checker, InstalledFileManager $file)
     {
         $this->requirements = $checker;
+        $this->fileinstall = $file;
     }
 
     /**
@@ -50,7 +53,9 @@ class RequirementsController extends Controller
      * @return \Illuminate\View\View
      */
     public function sucsess(){
+        $this->fileinstall->create();
         return view('kubpro::sucsess');
+
     }
 
 

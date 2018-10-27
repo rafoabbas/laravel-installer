@@ -7,7 +7,7 @@
             <div class="tab-content">
                 <div class="tab-pane active" role="tabpanel" id="step1">
                     <div class="align-self-baseline p-2 bd-highlight"><div class="alert alert-success "  role="alert">
-                            Sucsess! Laravel Installed!<a href="{{asset('/')}}"> Home Page</a>
+                            {{__('installer.sucsess.message')}}<a href="{{asset('/')}}"> {{__('installer.homepage')}}</a>
                         </div></div>
                 </div>
                 <div class="clearfix"></div>
