@@ -1,4 +1,12 @@
-# installer
+# Easy Installer for Laravel 
+
+## About
+
+* Easy installation like Wordpress or CMS projects
+* Wordpress veya CMS projeleri gibi kolay kurulum
+
+
+
 
 ## Requirements
 
@@ -32,3 +40,9 @@ Uses package auto discovery feature, no need to edit the `config/app.php` file.
 ## Routes
 
 * `/install`
+
+
+License
+=======
+
+This library is released under the [MIT license](LICENSE).
