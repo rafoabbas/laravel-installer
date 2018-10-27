@@ -52,7 +52,7 @@ class InstallerServiceProvider extends ServiceProvider
         ], 'installer');
 
         $this->publishes([
-            __DIR__.'/../Lang' => base_path('resources/lang'),
+            __DIR__ . '/../Publish/Lang' => base_path('resources/lang'),
         ], 'installer');
 
     }
