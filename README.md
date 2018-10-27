@@ -1,4 +1,4 @@
-# installer
+# Easy Installer for Laravel 
 
 ## Requirements
 
