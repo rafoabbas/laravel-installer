@@ -32,3 +32,9 @@ Uses package auto discovery feature, no need to edit the `config/app.php` file.
 ## Routes
 
 * `/install`
+
+
+License
+=======
+
+This library is released under the [MIT license](LICENSE).
