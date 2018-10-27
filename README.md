@@ -1,4 +1,9 @@
 # Easy Installer for Laravel 
+[![Latest Stable Version](https://poser.pugx.org/kubpro/installer/v/stable)](https://packagist.org/packages/kubpro/installer)
+[![Total Downloads](https://poser.pugx.org/kubpro/installer/downloads)](https://packagist.org/packages/kubpro/installer)
+[![License](https://poser.pugx.org/kubpro/installer/license)](https://packagist.org/packages/kubpro/installer)
+[![Monthly Downloads](https://poser.pugx.org/kubpro/installer/d/monthly)](https://packagist.org/packages/kubpro/installer)
+[![Daily Downloads](https://poser.pugx.org/kubpro/installer/d/daily)](https://packagist.org/packages/kubpro/installer)
 
 ## About
 
