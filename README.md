@@ -1,5 +1,4 @@
 # Easy Installer for Laravel 
-<<<<<<< HEAD
 
 ## About
 
@@ -9,7 +8,6 @@
 
 
 =======
->>>>>>> 5f2a0044c7d0a20b75d5a600d759115210a19e0f
 
 ## Requirements
 
