@@ -51,6 +51,10 @@ class InstallerServiceProvider extends ServiceProvider
             __DIR__.'/../Publish/Assets' => public_path('installer'),
         ], 'installer');
 
+        $this->publishes([
+            __DIR__.'/../Lang' => base_path('resources/lang'),
+        ], 'installer');
+
     }
 
 }
