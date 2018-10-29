@@ -67,6 +67,8 @@ class AppConfigController extends Controller
         }
 
     }
+
+    //databese
     public function Dadabase(){
         $error = false;
         $message = '';
