@@ -28,8 +28,8 @@
             "email": "rafo.abbas@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "version": "1.0.1",
-    "prefer-stable": true
+    "minimum-stability": "stable"
+
+
 
 }
