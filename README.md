@@ -2,7 +2,7 @@
 
 ## About
 * Easy installation like Wordpress or CMS projects.
-* Wordpress veya CMS projeleri gibi kolay kurulum.
+* Wordpress veya CMS projeleri gibi kolay kurulum..
 
 
 
